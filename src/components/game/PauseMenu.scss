@@ -1,0 +1,46 @@
+.pause-menu {
+    top: 0;
+    left: 0;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.pause-menu__panel {
+    position: relative;
+    z-index: 2;
+    background-color: rgb(48, 213, 200);
+    padding: 1.5vw;
+    text-align: center;
+
+    &.main-menu {
+        width: 20vw;
+    }
+
+    &.load-game {
+        width: 24vw;
+        height: 30vw;
+    }
+}
+
+.pause-menu__back-button {
+    position: absolute;
+    bottom: 1vw;
+    left: 1.4vw;
+    font-size: 0.9vw;
+    cursor: pointer;
+}
+
+.pause-menu__menu-text {
+    font-size: 1.6vw;
+}
+

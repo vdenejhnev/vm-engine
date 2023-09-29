@@ -1,0 +1,40 @@
+.action-menu {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    padding: 1vw;
+    background-color: rgba(48, 213, 200, 0.8);
+    z-index: 3;
+    height: 13vw;
+}
+
+.action-menu__person-name {
+    font-size: 1.5vw;
+}
+
+.action-menu__person-replica {
+    font-size: 1vw;
+}
+
+.action-menu__actions {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.action-menu__actions-list {
+    display: flex;
+}
+
+.action-menu__actions-item {
+    margin-right: 1.5vw;
+    font-size: 1.2vw;
+    cursor: pointer;
+
+    &.active {
+        color: #fff;
+    }
+}

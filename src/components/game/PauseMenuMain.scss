@@ -1,0 +1,13 @@
+.pause__menu-list {
+    margin-top: 1vw;
+}
+
+.pause__menu-item {
+    font-size: 1.2vw;
+    margin-top: 0.4vw;
+    cursor: pointer;
+
+    &:first-child {
+        margin-top: none;
+    }
+}

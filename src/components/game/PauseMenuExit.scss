@@ -1,0 +1,14 @@
+.pause-menu__exit-selector {
+    margin-top: 1vw;
+    display: flex;
+    justify-content: center;
+}
+
+.pause-menu__exit-item {
+    font-size: 1.2vw;
+    cursor: pointer;
+
+    &:last-child {
+        margin-left: 2vw;
+    }
+}
